@@ -10,7 +10,7 @@
 //  ],
 //  isLive: true
 // }
-function Persons(title, body, author, views, comments, isLive) {
+function PERSONS(title, body, author, views, comments, isLive) {
     this.title = title;
     this.body = body;
     this.author = author;
@@ -18,7 +18,7 @@ function Persons(title, body, author, views, comments, isLive) {
     this.comments = comments;
     this.isLive = isLive;
 }
-const person = new Persons(
+const person = new PERSONS(
     "ahihi",
     "anh Hoàng đzzz",
     "abc",
